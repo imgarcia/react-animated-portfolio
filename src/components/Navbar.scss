@@ -1,4 +1,6 @@
 .navbar {
+  position: relative;
+  z-index: 1000;
   height: 100px;
 
   .wrapper {
