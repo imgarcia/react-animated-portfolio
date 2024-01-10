@@ -26,6 +26,23 @@ section {
   scroll-snap-align: center;
 }
 
+/* MEDIA QUERIES */
+@mixin mobile {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: 1366px) {
+    @content;
+  }
+}
+
 /* FRAMER COURSE TUTORIAL */
 .course {
   height: 100vh;
